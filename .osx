@@ -41,7 +41,7 @@ defaults write com.apple.systemuiserver menuExtras -array \
 	"/System/Library/CoreServices/Menu Extras/Clock.menu"
 
 # Set highlight color to green
-defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
+### defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
@@ -348,7 +348,7 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
 # Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 36
+### defaults write com.apple.dock tilesize -int 36
 
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "scale"
@@ -424,8 +424,8 @@ defaults write com.apple.dock persistent-others -array-add '{tile-data={}; tile-
 # 11: Launchpad
 # 12: Notification Center
 # Bottom right screen corner → Launchpad
-defaults write com.apple.dock wvous-tr-corner -int 11
-defaults write com.apple.dock wvous-tr-modifier -int 0
+defaults write com.apple.dock wvous-br-corner -int 11
+defaults write com.apple.dock wvous-br-modifier -int 0
 # Bottom left screen corner → Desktop
 defaults write com.apple.dock wvous-bl-corner -int 4
 defaults write com.apple.dock wvous-bl-modifier -int 0
