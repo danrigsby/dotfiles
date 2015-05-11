@@ -1,6 +1,6 @@
-" Use the Solarized Dark theme
+" Use the theme
 set background=dark
-colorscheme solarized
+colorscheme peacock
 let g:solarized_termtrans=1
 
 " Make Vim more useful
