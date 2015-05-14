@@ -145,6 +145,7 @@ brew cask install diffmerge
 # brew cask install steam
 
 brew cask install bartender
+brew cask install cheatsheet
 
 #Install atom plugin
 apm install sublime-style-column-selection
