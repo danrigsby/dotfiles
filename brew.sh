@@ -174,13 +174,12 @@ apm install merge-conflicts
 apm install pigments
 apm install highlight-selected
 apm install project-manager
-#apm install editorconfig
+apm install editorconfig
 apm install highlight-line
 apm install regex-railroad-diagram
 apm install git-blame
 apm install minimap-selection
 apm install trailing-spaces
-apm install minimap-color-highlight 
 apm install minimap-git-diff
 
 # Cleanup
