@@ -141,7 +141,10 @@ brew cask install vlc
 brew cask install xtrafinder
 brew cask install flashlight
 brew cask install diffmerge
-# brew cask install openemu
+brew cask install openemu
+brew cask install slack
+brew cask install visual-studio-code
+brew cask install spectacle
 # brew cask install steam
 
 brew cask install bartender
