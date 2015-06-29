@@ -122,65 +122,60 @@ printf '%s\n%s' '[storage]' 'engine = google_drive' >> .mackup.cfg
 # Instll quick look plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webpquicklook suspicious-package && qlmanage -r
 
-# Install applications
-echo "installing applications..."
+# brew cask install steam
+brew cask install atom
+brew cask install calibre
+brew cask install dashlane
+brew cask install diffmerge
+brew cask install evernote
+brew cask install firefox
+brew cask install flashlight
+brew cask install fluid
 brew cask install google-chrome
 brew cask install google-drive
-brew cask install iterm2
-brew cask install atom
-brew cask install evernote
 brew cask install intellij-idea
+brew cask install iterm2
+brew cask install openemu
 brew cask install sequel-pro
 brew cask install sourcetree
+brew cask install spectacle
 brew cask install virtualbox
-brew cask install calibre
-brew cask install firefox
-brew cask install dashlane
-brew cask install fluid
+brew cask install visual-studio-code
 brew cask install vlc
 brew cask install xtrafinder
-brew cask install flashlight
-brew cask install diffmerge
-brew cask install openemu
-brew cask install slack
-brew cask install visual-studio-code
-brew cask install spectacle
 # brew cask install steam
 
 brew cask install bartender
 brew cask install cheatsheet
 
 #Install atom plugin
-apm install sublime-style-column-selection
-apm install autocomplete-plus
-apm install autocomplete-paths
-#apm install circle-ci
-apm install enhanced-tabs
-apm install file-icons
-apm install language-scala
-apm install minimap
-apm install open-recent
-apm install react
-#apm install terminal-panel
-apm install term2
-apm install sublime-tabs
-apm install git-log
-apm install git-go
-apm install git-history
-apm install git-plus
-apm install git-projects
-apm install git-tab-status
-apm install merge-conflicts
-apm install pigments
-apm install highlight-selected
-apm install project-manager
-apm install editorconfig
-apm install highlight-line
-apm install regex-railroad-diagram
-apm install git-blame
-apm install minimap-selection
-apm install trailing-spaces
-apm install minimap-git-diff
+  apm install autocomplete-paths
+  apm install editorconfig
+  apm install enhanced-tabs
+  apm install file-icons
+  #apm install git-blame
+  apm install git-go
+  apm install git-history
+  apm install git-log
+  apm install git-plus
+  #apm install git-projects
+  apm install highlight-line
+  apm install highlight-selected
+  apm install language-scala
+  apm install linter
+  apm install linter-eslint
+  apm install merge-conflicts
+  apm install minimap
+  apm install minimap-color-highlight
+  apm install minimap-git-diff
+  apm install minimap-selection
+  apm install open-recent
+  apm install pigments
+  apm install project-manager
+  apm install react
+  apm install regex-railroad-diagram
+  apm install sort-lines
+  apm install sublime-style-column-selection
 
 # Cleanup
 brew cleanup
