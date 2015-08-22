@@ -105,8 +105,6 @@ which -s ack || brew install ack
 # Install web/javascript tooling
 which -s gulp || npm install gulp -g
 which -s grunt || npm install grunt -g
-which -s jsxhint || npm install jsxhint -g
-which -s eslint || npm install eslint -g
 
 # Change git autocrlf to "input"
 git config --global core.autocrlf input
