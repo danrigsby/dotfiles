@@ -78,5 +78,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias shopt="setopt"
+source ~/.bash_profile
 source ~/.aliases
 source ~/.functions
