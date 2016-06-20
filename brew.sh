@@ -101,6 +101,7 @@ which -s scala || brew install scala
 which -s node || brew install node
 which -s wget || brew install wget
 which -s ack || brew install ack
+brew install python
 
 # Install web/javascript tooling
 which -s gulp || npm install gulp -g
