@@ -120,23 +120,19 @@ printf '%s\n%s' '[storage]' 'engine = google_drive' >> .mackup.cfg
 # Instll quick look plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webpquicklook suspicious-package && qlmanage -r
 
-# brew cask install steam
 brew cask install atom
 brew cask install calibre
 brew cask install dashlane
 brew cask install diffmerge
 brew cask install evernote
 brew cask install firefox
-brew cask install flashlight
 brew cask install fluid
 brew cask install google-chrome
 brew cask install google-drive
-brew cask install intellij-idea
 brew cask install iterm2
 brew cask install openemu
 brew cask install sequel-pro
 brew cask install sourcetree
-brew cask install spectacle
 brew cask install virtualbox
 brew cask install visual-studio-code
 brew cask install vlc
