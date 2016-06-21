@@ -134,7 +134,7 @@ brew cask install firefox
 brew cask install fluid
 brew cask install google-chrome
 brew cask install google-drive
-brew cask install iterm3
+brew cask install iterm2
 brew cask install openemu
 brew cask install sequel-pro
 brew cask install sourcetree
