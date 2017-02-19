@@ -123,9 +123,6 @@ printf '%s\n%s' '[storage]' 'engine = google_drive' >> .mackup.cfg
 
 # Instll quick look plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webpquicklook suspicious-package && qlmanage -r
-
-brew cask install alfred
-brew cask install atom
 brew cask install calibre
 brew cask install dashlane
 brew cask install diffmerge
@@ -134,7 +131,6 @@ brew cask install firefox
 brew cask install fluid
 brew cask install google-chrome
 brew cask install google-drive
-brew cask install iterm2
 brew cask install openemu
 brew cask install sequel-pro
 brew cask install sourcetree
@@ -144,42 +140,16 @@ brew cask install vlc
 brew cask install gitkraken
 brew cask install bartender
 brew cask install kindle
-brew cask install stackato
-brew cask install discord
 brew cask install duet
 brew cask install slack
 # brew cask install steam
+brew cask install hyper
+brew cask install franz
+brew cask install timestamp
+brew cask install kap
 
 brew cask install bartender
 brew cask install cheatsheet
-
-#Install atom plugin
-apm install autocomplete-paths
-apm install editorconfig
-apm install enhanced-tabs
-apm install file-icons
-apm install git-blame
-apm install git-go
-apm install git-history
-apm install git-log
-apm install git-plus
-apm install highlight-line
-apm install highlight-selected
-apm install language-scala
-apm install linter
-apm install linter-eslint
-apm install merge-conflicts
-apm install minimap
-apm install minimap-git-diff
-apm install minimap-selection
-apm install open-recent
-apm install pigments
-apm install project-manager
-apm install react
-apm install regex-railroad-diagram
-apm install sort-lines
-apm install sublime-style-column-selection
-apm install sync-settings
 
 # Cleanup
 brew cleanup
