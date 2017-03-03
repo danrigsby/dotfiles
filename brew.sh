@@ -147,6 +147,8 @@ brew cask install hyper
 brew cask install franz
 brew cask install timestamp
 brew cask install kap
+brew cask install cerebro
+brew cask install google-play-music-desktop-player
 
 brew cask install bartender
 brew cask install cheatsheet
