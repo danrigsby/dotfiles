@@ -141,8 +141,6 @@ brew cask install gitkraken
 brew cask install bartender
 brew cask install kindle
 brew cask install duet
-brew cask install slack
-# brew cask install steam
 brew cask install hyper
 brew cask install franz
 brew cask install timestamp
