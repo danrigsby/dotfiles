@@ -126,6 +126,8 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 
 brew isntall golang
 brew install python
+brew install docker
+brew install dockerctl
 
 brew cask install calibre
 brew cask install dashlane
