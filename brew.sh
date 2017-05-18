@@ -121,8 +121,12 @@ brew install mackup
 rm .mackup.cfg
 printf '%s\n%s' '[storage]' 'engine = google_drive' >> .mackup.cfg
 
-# Instll quick look plugins
+# Install quick look plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webpquicklook suspicious-package && qlmanage -r
+
+brew isntall golang
+brew install python
+
 brew cask install calibre
 brew cask install dashlane
 brew cask install diffmerge
