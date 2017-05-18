@@ -5,7 +5,7 @@ export ZSH=~/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="ys"
+ZSH_THEME=""
 
 # Uncomment the following line to use case-sensitive completion.
 CASE_SENSITIVE="true"
@@ -82,3 +82,8 @@ source ~/.oh-my-zsh/custom/plugins/zsh-completions/zsh-completions.plugin.zsh
 source ~/.bash_profile
 source ~/.aliases
 source ~/.functions
+
+# Use pure-prompt: https://github.com/sindresorhus/pure
+# > npm install --global pure-prompt
+autoload -U promptinit; promptinit
+prompt pure
