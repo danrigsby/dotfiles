@@ -133,6 +133,7 @@ brew install yarn
 brew cask install calibre
 brew cask install dashlane
 brew cask install diffmerge
+brew cask install docker
 brew cask install evernote
 brew cask install firefox
 brew cask install fluid
@@ -166,6 +167,7 @@ npm install -g npm-check-updates
 npm install -g create-react-app
 npm install -g create-react-native-app
 npm install -g react-native-cli
+npm install -g jscodeshift
 
 echo "COMPLETE: Run 'mackup restore' to restore any saved settings"
 
