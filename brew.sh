@@ -128,6 +128,7 @@ brew isntall golang
 brew install python
 brew install docker
 brew install dockerctl
+brew install yarn
 
 brew cask install calibre
 brew cask install dashlane
@@ -159,6 +160,12 @@ brew cask install cheatsheet
 
 # Cleanup
 brew cleanup
+
+# Npm installs
+npm install -g npm-check-updates
+npm install -g create-react-app
+npm install -g create-react-native-app
+npm install -g react-native-cli
 
 echo "COMPLETE: Run 'mackup restore' to restore any saved settings"
 
