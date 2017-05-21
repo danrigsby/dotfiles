@@ -129,6 +129,7 @@ brew install python
 brew install docker
 brew install dockerctl
 brew install yarn
+brew install firebase-cli
 
 brew cask install calibre
 brew cask install dashlane
