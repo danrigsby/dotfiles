@@ -169,6 +169,7 @@ npm install -g create-react-app
 npm install -g create-react-native-app
 npm install -g react-native-cli
 npm install -g jscodeshift
+npm install -g hpm-cli
 
 echo "COMPLETE: Run 'mackup restore' to restore any saved settings"
 
